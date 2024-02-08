@@ -1,0 +1,119 @@
+.post-container {
+  display: flex;
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0.5rem 0.5rem 0.3rem rgb(234, 233, 233);
+  border-radius: 10px;
+}
+
+.vote-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.9rem;
+  margin-right: 2rem;
+}  
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 1.9rem;
+  padding: 0;
+  background: none;
+  display: flex;
+  border-radius: 5px;
+  color: gray;
+}
+
+button:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.up:hover {
+  color: rgb(0, 192, 0);
+}
+
+.down:hover {
+  color: rgb(250, 38, 38);
+}
+
+.upThick {
+  color: rgb(0, 192, 0) !important;
+}
+
+.downThick {
+  color: rgb(250, 38, 38) !important;
+}
+
+.voteNum {
+  padding-block: 0.3rem;
+  margin:0;
+  color: gray;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.post-title {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  font-size: 1.9rem;
+  color: rgb(72, 72, 72);
+}
+
+.post-image-container {
+  max-height:fit-content;
+  width:auto;
+}
+
+.post-detail-container {
+  margin: 1rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: solid 1px rgb(225, 225, 225);
+  padding-top: 0.5rem;
+  align-items: center;
+}
+
+.poster-profile {
+  display:flex;
+  padding:0;
+  margin:0;
+}
+
+.poster-profile > p{
+  padding:0;
+  margin:0 0 0 0.5rem;
+  color: blue;
+  font-weight: 600;
+}
+
+.upload-time {
+  color: gray;
+  font-style: italic;
+}
+
+.comment {
+  display:flex;
+  font-size: 1rem;
+  color: gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment button {
+  padding: 0.3rem;
+  font-size: large;
+}
+
+.comment p {
+  padding-block: 0.3rem;
+  margin:0;
+}
+
